@@ -92,11 +92,11 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello, I'm Aswin Pradeep. I'm currently in the data science domain with an edtech startup, working on the curriculum team. I'm also pursuing a Master's in Computer Science. I aim to transition into software engineering because I love problem-solving and building tech products, especially robust backend systems. I have expertise in DSA and use Java and Python for backend development. I'm passionate about system design (both LLD and HLD), and I enjoy learning, applying new concepts, and teaching coding online. I've built some cool projects that you can check out in the portfolio section.",
+    bio: "Hi, I’m Aswin, a software developer skilled in building web, mobile, and AI-powered applications. I work as a software engineer at done.fyi, where I’m revamping the platform to Python and integrating AI features, handling both frontend and backend development. On the side, I’m developing a productivity app powered by AI to help users manage their content smarter. I’m always open to collaborating on innovative ideas—feel free to reach out -> aswinpradeep15@gmail.com",
     skills:
         {
-            proficientWith: ['java','python','springboot',"Django",'fast api', "mysql",'git', 'github',"system design(lld,hld)", "dsa","aws", "docker", "kubernetes", "redis", "kafka"],
-            exposedTo: ["Backend Development", "Microservices", "API development (RESTFul, GraphQL)",'machine learning', 'deep learning', 'nlp',"langchain",'streamlit']
+            proficientWith: ['python',"Django",'fast api','React js','React Native', "mysql",'git', 'github',"system design(lld,hld)", "dsa","aws", "docker", "kubernetes", "redis", "kafka"],
+            exposedTo: ["RAG ","Agentic AI","OpenAI APIs","LLAMA", "Microservices", "API development (RESTFul, GraphQL)",'machine learning', 'deep learning', 'nlp',"langchain",'streamlit']
         }
     ,
     hobbies: [
@@ -121,6 +121,12 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
+            title: "Savify",
+            live: "https://www.savify.app/",
+            source: "https://",
+            image: mock4
+        },
+        {
             title: "Trade automation",
             live: "https://ns-frontend-v2.streamlit.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/aswinpradeepgit/Automation_Main_Repo.git", // this should be a link to the **repository** of the project, where the code is hosted.
@@ -138,12 +144,7 @@ export const info = {
             source: "https://github.com/paytonjewell",
             image: mock3
         },
-        {
-            title: "Project 4",
-            live: "https://",
-            source: "https://",
-            image: mock4
-        },
+        
         {
             title: "Project 5",
             live: "https://",
